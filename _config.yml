@@ -1,1 +1,69 @@
-theme: jekyll-theme-slate
+# Site settings
+title: Ultragreen Software
+description: 'Where grass is green and OpenSource is Better'
+url: 'https://ultragreen.github.io'
+baseurl: ''
+font_awesome: '57918ba98d.js'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+# disable_landing_page: true
+
+author:
+  name: 'Romain GEORGES'
+
+# The order of the social links is defined by their order in this list
+socials:
+  github:
+    user_id: Ultragreen
+#  hackerrank:
+#    user_id: 
+#  scholar: 
+#    user_id: 
+#  orcid: 
+#    user_id: 
+  linkedin: 
+    user_id: rgeorges
+  twitter: 
+    user_id: UltragreenSoft
+  email: 
+    address: contact@ultragreen.net
+  #reddit:
+  #  user_id: 
+  #youtube:
+  #  channel_id:  
+  #  display_name: (optional)
+  #instagram:
+  #  user_id: 
+  #tiktok:
+  #  user_id:
+  #twitch:
+  #  user_id:
+  
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'pages'
+    values:
+        layout: 'default'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['Gemfile', 'Gemfile.lock','socials/']

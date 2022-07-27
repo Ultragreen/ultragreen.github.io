@@ -1,0 +1,23 @@
+- name: Sc4ry
+  img: images/projects/logo_sc4ry.png
+  desc: SIMPLE CIRCUITBREACKER FOR RUBY, SC4RY PROVIDE THE CIRCUIT BREAKER DESIGN PATTERN FOR YOUR APPLICATIONS
+  gh_user: Ultragreen
+  repo: sc4ry
+  
+- name: Carioca
+  img: images/profile.png
+  desc: Container And Registry with Inversion Of Control for your Applications. Carioca 2 is a complete rewrite who provide a full IoC/DI light Container and a services registry
+  gh_user: Ultragreen
+  repo: carioca
+
+- name: Splash
+  img: https://github.com/Ultragreen/prometheus-splash/raw/master/assets/images/logo_splash_reduce.png
+  desc: Orchestration and Supervision made easy, SPLASH is Supervision with Prometheus of Logs and Asynchronous tasks orchestration for Services or Hosts
+  gh_user: Ultragreen
+  repo: prometheus-splash
+
+
+
+
+  
+
