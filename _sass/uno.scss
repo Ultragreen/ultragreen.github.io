@@ -288,7 +288,7 @@ body:after {
 #twitter:hover {
   color: #1da1f2;
 }
-
+g
 #youtube:hover {
   color: #ff0000;
 }
@@ -310,16 +310,16 @@ body {
 }
 
 ::selection {
-  background: #007ac1;
+  background: #3E9C26;
 }
 
 ::-moz-selection {
-  background: #007ac1;
+  background: #3E9C26;
 }
 
 a {
   text-decoration: none;
-  color: #03a9f4;
+  color: #3E9C26;
 }
 a:hover {
   background-color: #333333;
@@ -468,7 +468,7 @@ pre code {
 .time a:hover,
 .author a:hover,
 .tags a:hover {
-  color: #58a5f0;
+  color: #50953F;
 }
 
 .excerpt {
@@ -502,7 +502,7 @@ pre code {
   position: relative;
   display: inline-block;
   padding: 8px 18px 9px 18px;
-  background: #002f6c;
+  background: #315E26;
   border-radius: 3px;
   text-align: center;
   color: #fff;
@@ -650,11 +650,11 @@ hr {
 }
 
 .panel-button:hover {
-  color: #005b9f;
+  color: #50953f;
 }
 
 .panel-button-pressed {
-  background: #005b9f;
+  background: #50953F;
 }
 
 .panel-cover {
@@ -762,16 +762,16 @@ hr {
 }
 
 .cover-green {
-  background-color: rgba(21, 111, 120, 0.6);
+  background-color: #50953F;
   background-image: -webkit-linear-gradient(
     -410deg,
-    rgba(21, 111, 120, 0.6) 20%,
-    rgba(6, 31, 33, 0.8)
+    #50953F 20%,
+    #315E26
   );
   background-image: linear-gradient(
     140deg,
-    rgba(21, 111, 120, 0.6) 20%,
-    rgba(6, 31, 33, 0.8)
+    #50953F 20%,
+    #315E26
   );
 }
 
@@ -840,12 +840,12 @@ hr {
 }
 
 .btn-secondary {
-  border-color: #5ba4e5;
-  color: #5ba4e5;
+  border-color: #315E26;
+  color: #315E26;
 }
 .btn-secondary:hover {
-  color: #217fd2;
-  border-color: #217fd2;
+  color: #3E9C26;
+  border-color: #3E9C26;
 }
 
 .btn-tertiary {
@@ -915,7 +915,7 @@ nav {
   opacity: 0.8;
 }
 .navigation__item a:hover {
-  color: #5ba4e5;
+  color: #3E9C26;
   border-color: #fff;
   opacity: 1;
 }

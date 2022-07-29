@@ -5,13 +5,13 @@
   repo: sc4ry
   
 - name: Carioca
-  img: images/profile.png
+  img: images/projects/logo_carioca.png
   desc: Container And Registry with Inversion Of Control for your Applications. Carioca 2 is a complete rewrite who provide a full IoC/DI light Container and a services registry
   gh_user: Ultragreen
   repo: carioca
 
 - name: Splash
-  img: https://github.com/Ultragreen/prometheus-splash/raw/master/assets/images/logo_splash_reduce.png
+  img: images/projects/logo_splash.png
   desc: Orchestration and Supervision made easy, SPLASH is Supervision with Prometheus of Logs and Asynchronous tasks orchestration for Services or Hosts
   gh_user: Ultragreen
   repo: prometheus-splash
