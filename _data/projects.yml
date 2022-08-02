@@ -16,6 +16,12 @@
   gh_user: Ultragreen
   repo: prometheus-splash
 
+- name: MockWS
+  img: images/logo.png
+  desc: WebService Mocking for developement
+  gh_user: Ultragreen
+  repo: mockws
+
 
 
 
